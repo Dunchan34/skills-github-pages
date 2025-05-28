@@ -1,0 +1,107 @@
+/* style.css */
+#wrapper, .opacity {
+    background: rgba(87, 76, 83, 0.9);
+}
+.opacity {
+    background: hsla(344, 73%, 52%, 0.5);
+    color: white;
+    padding: 20px;
+}
+#wrapper {
+    padding: 40px;
+} 
+/*this is a lecture 05,1 */
+div { font-size: 24px; }  
+
+/* This is lecture 05,2 */
+div { font-size: 24px }
+.nested-div { font-size: 1.8em } 
+html { font-size: 25px } 
+
+
+/* This is lecture 05,3 */
+/* Khung ngoài với viền đứt khúc màu xanh */
+#outer-div {
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 3px dashed green;  
+  background-color: #e0f7fa;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#inner-div {
+  width: 50%;
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid #333;      
+  background-color: #fff8e1;
+  font-size: 16px;
+  line-height: 1.5;
+}
+ 
+
+
+/* This is lecture 05,PLAN */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("img") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 20px;
+  border: 1px solid #aaa;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h1 {
+  color: #00e5ff;
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+.card ul li {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #00e5ff;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #00bcd4;
+}
