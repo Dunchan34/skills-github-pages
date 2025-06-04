@@ -427,3 +427,25 @@ textarea {
     height: 100px;
     resize: none;
 }
+table, td, tr, th {
+    border: 1px solid #000000;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    padding-left: 5px;
+}
+
+td.bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+td.result {
+    width: 400px;
+    text-align: right;
+    padding-right: 5px;
+}
