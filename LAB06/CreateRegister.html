@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>User Registration</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!-- jQuery + Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <!-- Custom CSS -->
+  <style type="text/css">
+    html, body {
+      height: 100%;
+      margin: 0;
+      background-color: #555252;
+    }
+
+    .center-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .container {
+      max-width: 400px;
+      margin-top: 60px;
+    }
+
+    .panel {
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+    }
+
+    .panel-heading {
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .form-control {
+      border-radius: 25px;
+    }
+
+    .btn-info {
+      background-color: #5bc0de;
+      border-color: #46b8da;
+      border-radius: 25px;
+      font-weight: bold;
+      width: 90%;
+      padding: 10px 0;
+      transition: background-color 0.3s, border-color 0.3s;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .btn-info:hover {
+      background-color: #31b0d5;
+      border-color: #269abc;
+      font-weight: 150px;
+
+      color: #fff;
+
+        
+
+    }
+  </style>
+</head>
+<body>
+  <div class="center-box">
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading">User Registration</div>
+        <div class="panel-body">
+          <form>
+            <div class="form-group">
+              <label for="firstname" class="control-label">First name</label>
+              <input type="text" id="firstname" class="form-control" placeholder="First name">
+            </div>
+            <div class="form-group">
+              <label for="lastname" class="control-label">Last name</label>
+              <input type="text" id="lastname" class="form-control" placeholder="Last name">
+            </div>
+            <div class="form-group">
+              <label for="email" class="control-label">Email address</label>
+              <input type="email" id="email" class="form-control" placeholder="Email address">
+            </div>
+            <div class="form-group">
+              <label for="password" class="control-label">Password</label>
+              <input type="password" id="password" class="form-control" placeholder="Input password">
+            </div>
+            <div class="form-group">
+              <label for="confirm" class="control-label">Confirmation</label>
+              <input type="password" id="confirm" class="form-control" placeholder="Input confirm">
+            </div>
+<input type="submit" value="Register" class="btn btn-info">
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
