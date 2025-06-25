@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Average Test Scores</title>
+  <script>
+    var total = 0;
+
+    var entry = prompt("Enter test score 1");
+    var score1 = parseInt(entry);
+    total += score1;
+
+    entry = prompt("Enter test score 2");
+    var score2 = parseInt(entry);
+    total += score2;
+
+    entry = prompt("Enter test score 3");
+    var score3 = parseInt(entry);
+    total += score3;
+
+    var average = (total / 3).toFixed(2); // giữ 2 số thập phân
+  </script>
+</head>
+<body>
+  <script>
+    document.write("<h1>The Test Scores App</h1>");
+    document.write("Score 1 = " + score1 + "<br>");
+    document.write("Score 2 = " + score2 + "<br>");
+    document.write("Score 3 = " + score3 + "<br><br>");
+    document.write("Average score = " + average + "<br><br>");
+  </script>
+  Thanks for using the Test Scores application!
+</body>
+</html>

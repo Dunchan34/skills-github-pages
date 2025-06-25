@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snack</title> 
+    <script> 
+    var total = 0; 
+    var entryCount = 0;
+    var entry; 
+    do {
+      entry = prompt("Enter test score\n" + "Or enter 999 to end entries", 999);
+      entry = parseInt(entry);
+      if (entry >= 0 && entry <= 100) {
+        total = total+ entry;
+        entryCount++;
+      }
+      else if (entry != 999) {
+        alert("Entry must be a valid number from 0 through 100\nOr enter 999 to end entries");
+      }
+
+    } while (entry != 999);
+
+    var average = total / entryCount;
+    average = parseInt(average); 
+    alert("Average score is " + average);
+  </script>
+</head>
+<body>
+    <h1>Snack</h1>
+    <p>Check the console for the average score.</p>
+    <p>Note: The average is rounded down to the nearest integer.</p>
+</body>
+
+</html>
+
